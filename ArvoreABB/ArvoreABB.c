@@ -68,7 +68,7 @@ void obterPagina(No* raiz, int pagina, int tamanhoPagina) {
 free(array);
 }
 
-int main() {
+int main() { //Precisava fazer um codigo para pedir as informações ao invez de eu colocar com o inserir()
     No* raiz = NULL;
     raiz = inserir(raiz, 50);
     raiz = inserir(raiz, 30);
